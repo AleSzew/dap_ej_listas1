@@ -11,7 +11,7 @@ final appRouter = GoRouter(
     GoRoute(
   path: '/login',
   builder: (context, state) {
-    return login(users: globalUsers);
+    return login();
   },
 ),
 
